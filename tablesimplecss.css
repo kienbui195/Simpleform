@@ -1,0 +1,16 @@
+/*Font chu, vien bang mong, do rong 100%*/
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+/* Xac dinh duong vien cho bang, noi dung can tung o ben trai, cac o cac nhau 8px*/
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+/*xac dinh mau cac dong chan la #dddddd*/
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
